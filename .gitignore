@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions & build artifacts
+*.so
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+.DS_Store
+
+# Upstream backup
+.git_upstream_backup/
+*.git_upstream_backup/
+
+# Large binaries, models, & oversized dataset caches (>50MB)
+*.arrow
+*.pkl
+*.bin
+*.pt
+*.pth
+*.safetensors
+MarkLLM/watermark/xsir/dictionary/dictionary.txt
+MarkLLM/dataset/c4-train/
+
+# Local cache & logs
+.cache/
+*.log
+.pytest_cache/
+.ipynb_checkpoints/

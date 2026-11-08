@@ -1,0 +1,19 @@
+{
+    "dataset_ids": [
+        "allenai/c4",
+        "Salesforce/wikitext"
+    ],
+    "configurations": [
+        "en",
+        "wikitext-103-raw-v1"
+    ],
+    "splits": [
+        "train",
+        "test"
+    ],
+    "sampling_seed": 42,
+    "requested_sample_count": 60,
+    "actual_sample_count": 60,
+    "preprocessing_rules": "C4: remove < 50 tokens. WikiText: remove headers (= Title =) and < 50 tokens.",
+    "model_tokenizer": "facebook/opt-1.3b"
+}

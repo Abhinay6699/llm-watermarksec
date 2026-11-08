@@ -1,0 +1,25 @@
+# Core Deep Learning & NLP Frameworks
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.14.0
+accelerate>=0.25.0
+
+# Scientific & Mathematical Processing
+numpy
+scipy
+scikit-learn
+nltk
+
+# Tokenization & Embeddings
+sentencepiece
+sentence-transformers
+
+# Evaluation Metrics & Visualization
+matplotlib
+sacrebleu
+networkx
+Pillow
+
+# System & Progress Utilities
+psutil
+tqdm
